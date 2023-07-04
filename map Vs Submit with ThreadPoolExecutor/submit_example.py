@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def task(name):
     # sleep(random())
-    sleep_interval = randint(0, 10)
+    sleep_interval = randint(0, 5)
     # if sleep_interval == 3:
     #     raise Exception("Task Exception")
     sleep(sleep_interval)
