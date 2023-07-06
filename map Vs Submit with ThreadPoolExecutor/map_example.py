@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 def task(name):
     # sleep(random())
     # Testing purposes
-    sleep_duration = randint(0, 6)
+    sleep_duration = randint(0, 7)
     sleep(sleep_duration)
     return f"{name} - {sleep_duration} seconds"
 
